@@ -21,8 +21,7 @@ pipeline {
      } 
      stage('Mutation Tests - PIT') {
        steps {
-         sh "mvn org.pitest:pitest-maven:mutationCoverage" //hi
-       }
+         sh "mvn org.pitest:pitest-maven:mutationCoverage" //hi  grrot }
      } 
     }
 }
